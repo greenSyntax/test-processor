@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "test_processor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyProcessor",
+        "printedName": "MyProcessor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyProcessor",
+                "printedName": "test_processor.MyProcessor",
+                "usr": "s:14test_processor11MyProcessorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14test_processor11MyProcessorCACycfc",
+            "mangledName": "$s14test_processor11MyProcessorCACycfc",
+            "moduleName": "test_processor",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "process",
+            "printedName": "process()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14test_processor11MyProcessorC7processyyF",
+            "mangledName": "$s14test_processor11MyProcessorC7processyyF",
+            "moduleName": "test_processor",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14test_processor11MyProcessorC",
+        "mangledName": "$s14test_processor11MyProcessorC",
+        "moduleName": "test_processor",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ab\/Documents\/XC\/test-processor\/test-processor\/MyProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 27,
+      "value": "\"This is my Processor 🍕\""
+    }
+  ]
+}
